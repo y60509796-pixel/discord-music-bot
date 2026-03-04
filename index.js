@@ -13,11 +13,9 @@ client.on("ready", () => {
 });
 
 client.on("messageCreate", (message) => {
-
   if (message.content === "!ping") {
     message.reply("pong!");
   }
-
 });
 
 client.login(process.env.TOKEN);
